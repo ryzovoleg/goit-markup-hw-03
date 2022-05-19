@@ -214,6 +214,7 @@ img {
 .advantages-title {
     margin-bottom: 10px;
     color: var(--primary-font-color);
+    font-size: inherit;
     font-weight: 700;
     line-height: 1.14;
     letter-spacing: 0.03em;
