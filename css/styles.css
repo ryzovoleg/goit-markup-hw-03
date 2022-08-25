@@ -35,6 +35,7 @@ img {
 .container {
     width: 1200px;
 
+
     padding-left: 15px;
     padding-right: 15px;
 
@@ -82,6 +83,8 @@ img {
     color: var(--primary-font-color);
 }
 
+/* header */
+
 .header {
     padding-top: 25px;
     padding-bottom: 25px;
@@ -111,9 +114,9 @@ img {
 }
 
 .menu-link {
-    /* padding-top: 32px; */
-    /* padding-bottom: 32px; */
-
+   padding-top: 32px;
+   padding-bottom: 32px;
+   
     color: var(--primary-font-color);
     font-weight: 500;
     line-height: 1.14;
@@ -125,7 +128,7 @@ img {
 }
 
 .menu-item,
-.contact-item{
+.contact-item {
     margin-right: 50px;
 }
 
@@ -137,6 +140,7 @@ img {
 .header-contacts {
     display: flex;
     align-items: center;
+
     margin-left: auto;
 }
 
