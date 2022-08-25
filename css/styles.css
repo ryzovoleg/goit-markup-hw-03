@@ -101,6 +101,7 @@ img {
 
 .logo {
     margin-right: 93px;
+
     font-family: var(--logo-font);
     color: var(--primary-font-color);
     font-weight: 700;
@@ -116,7 +117,7 @@ img {
 .menu-link {
    padding-top: 32px;
    padding-bottom: 32px;
-   
+
     color: var(--primary-font-color);
     font-weight: 500;
     line-height: 1.14;
@@ -145,8 +146,9 @@ img {
 }
 
 .header-contact {
-    /* padding-top: 32px; */
-    /* padding-bottom: 32px; */
+    padding-top: 32px;
+    padding-bottom: 32px;
+
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
@@ -158,6 +160,8 @@ img {
 .header-contact:hover {
     color: var(--accent-color);
 }
+
+/* hero */
 
 .hero {
     padding: 200px 0px;
@@ -171,6 +175,7 @@ img {
 
 .hero-text {
     margin-bottom: 30px;
+
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -184,6 +189,7 @@ img {
     display: inline-block;
     min-width: 200px;
     padding: 10px 32px;
+
     background: var(--accent-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
@@ -199,13 +205,17 @@ img {
     cursor: pointer;
 }
 
+/* advantages */
+
 .advantages-list {
     display: flex;
 }
+
 /* 
 .advantages-item {
     flex-basis: calc((100% - 30px) / 4);
-} */
+} 
+*/
 
 .advantages-item {
     margin-right: 30px;
@@ -217,6 +227,7 @@ img {
 
 .advantages-title {
     margin-bottom: 10px;
+
     color: var(--primary-font-color);
     font-size: inherit;
     font-weight: 700;
@@ -230,6 +241,8 @@ img {
     letter-spacing: 0.03em;
     color: var(--description-font-color);
 }
+
+/* what-we-do, our team */
 
 .what-we-do-section {
     padding-top: 0;
@@ -291,10 +304,12 @@ letter-spacing: 0.03em;
 color: var(--description-font-color);
 }
 
+/* footer */
 
 .footer {
     padding-top: 60px;
     padding-bottom: 60px;
+
     background-color: var(--background-color-secondary);
 }
 
@@ -308,7 +323,6 @@ color: var(--description-font-color);
     letter-spacing: 0.03em;
     color: var(--secondary-font-color);
 }
-
 .logo-footer span {
     color: var(--accent-color);
 }
@@ -327,11 +341,12 @@ color: var(--description-font-color);
     letter-spacing: 0.03em;
     color: var(--secondary-font-color);
 }
-
 .fcontact-email,
 .fcontact-tel {
     color: var(--description-font-color);
 }
+
+/* portfolio */
 
 .portfolio-nav {
     display: flex;
@@ -342,12 +357,14 @@ color: var(--description-font-color);
 .portfolio-nav-item {
     margin-right: 8px;
 }
+
  .portfolio-nav-item:last-child {
      margin-right: 0;
  }
 
  .portfolio-btn {
      padding: 6px 22px;
+
      background-color: var(--background-color-additional);
      border-radius: 4px;
      font-weight: 500;
@@ -374,6 +391,7 @@ color: var(--description-font-color);
     flex-basis: calc((100% - 60px) / 3);
     margin-right: 30px;
     margin-bottom: 30px;
+
     background: var(--background-color-primary);
 }
 
@@ -393,6 +411,7 @@ color: var(--description-font-color);
 
 .project-name {
     margin-bottom: 4px;
+    
     color: var(--primary-font-color);
     font-weight: 700;
     font-size: 18px;
