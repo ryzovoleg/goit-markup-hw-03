@@ -1,19 +1,19 @@
 :root {
-    --main-font: 'Roboto', sans-serif;
-    --logo-font: 'Raleway', sans-serif;
-    --main-font-size: 14px;
-    --primary-font-color: #212121;
-    --secondary-font-color: #FFFFFF;
-    --description-font-color: #757575;
-    --accent-color: #2196F3;
-    --background-color-primary: #FFFFFF;
-    --background-color-secondary: #2F303A;
-    --background-color-additional: #F5F4FA;
+   --main-font: 'Roboto', sans-serif;
+   --logo-font: 'Raleway', sans-serif;
+   --main-font-size: 14px;
+   --primary-font-color: #212121;
+   --secondary-font-color: #FFFFFF;
+   --description-font-color: #757575;
+   --accent-color: #2196F3;
+   --background-color-primary: #FFFFFF;
+   --background-color-secondary: #2F303A;
+   --background-color-additional: #F5F4FA;
 }
 
 body {
-    font-family: var(--main-font);
-    font-size: var(--main-font-size);
+   font-family: var(--main-font);
+   font-size: var(--main-font-size);
 }
 
 h1,
@@ -23,34 +23,33 @@ h4,
 h5,
 h6,
 p {
-    margin: 0;
+   margin: 0;
 }
 
 img {
-    display: block;
-    max-width: 100%;
-    height: auto;
+   display: block;
+   max-width: 100%;
+   height: auto;
 }
 
 .container {
-    width: 1200px;
+   width: 1200px;
 
 
-    padding-left: 15px;
-    padding-right: 15px;
-
-    margin-left: auto;
-    margin-right: auto;
+   padding-left: 15px;
+   padding-right: 15px;
+   margin-left: auto;
+   margin-right: auto;
 }
 
 .list {
-    list-style: none;
-    padding: 0%;
-    margin: 0;
+   list-style: none;
+   padding: 0%;
+   margin: 0;
 }
 
 .link {
-    text-decoration: none;
+   text-decoration: none;
 }
 
 .footer-contacts {
@@ -118,10 +117,10 @@ img {
    padding-top: 32px;
    padding-bottom: 32px;
 
-    color: var(--primary-font-color);
-    font-weight: 500;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
+   color: var(--primary-font-color);
+   font-weight: 500;
+   line-height: 1.14;
+   letter-spacing: 0.02em;
 }
 
 .current {
@@ -365,7 +364,7 @@ color: var(--description-font-color);
  .portfolio-btn {
      padding: 6px 22px;
 
-     background-color: var(--background-color-additional);
+     background: var(--background-color-additional);
      border-radius: 4px;
      font-weight: 500;
      font-size: 16px;
@@ -378,7 +377,7 @@ color: var(--description-font-color);
 
 .portfolio-btn:hover,
 .portfolio-btn:focus {
-    background: var(--accent-color);
+    background-color: var(--accent-color);
     color: var(--secondary-font-color);
 }
 
