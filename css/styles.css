@@ -38,6 +38,7 @@ img {
 
    padding-left: 15px;
    padding-right: 15px;
+
    margin-left: auto;
    margin-right: auto;
 }
@@ -60,7 +61,6 @@ img {
     padding-top: 94px;
     padding-bottom: 94px;
 }
-
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -74,6 +74,7 @@ img {
 
 .section-title {
     margin-bottom: 50px;
+
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -167,7 +168,7 @@ img {
     background-color: var(--background-color-secondary);
 }
 
-.header-container {
+.hero-container {
     max-width: 696px;
     text-align: center;
 }
@@ -287,6 +288,7 @@ img {
 
 .team-member-name {
     margin-bottom: 10px;
+
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -294,7 +296,6 @@ img {
     letter-spacing: 0.03em;
     color: var(--primary-font-color);
 }
-
 .team-member-position {
 font-size: 16px;
 line-height: 1.19;
@@ -424,4 +425,3 @@ color: var(--description-font-color);
     line-height: 1.88;
     letter-spacing: 0.03em;
 }
-
